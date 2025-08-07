@@ -24,6 +24,7 @@ public class Main {
                 switch (op) {
                     case 1 -> operation.createBook();
                     case 2 -> operation.findByTitle();
+                    case 3 -> operation.updateById();
                     default -> System.out.println("Invalid");
                 }
             } catch (SQLException e) {
